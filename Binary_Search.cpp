@@ -1,6 +1,7 @@
 #include <iostream>using namespace std;
 
 int binarySearch(int arr[],int left,int right,int x){
+	
 	while(left<=right){
 		int mid = left+(right-left)/2;
 		
